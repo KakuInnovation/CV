@@ -107,8 +107,6 @@ li:hover {
 .contenedorflex {
     display: flex;
     justify-content: space-around;
-    position: ;
-
 }
 
 .cajaintegrante {
@@ -216,4 +214,9 @@ ul li a {
 
 ul li a:hover {
     color: #Ffffff;
+}
+
+.menu_bar {
+    background-color: #000F89;
+
 }
