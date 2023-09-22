@@ -1,2 +1,219 @@
-background: url(/img/foto1.jpg),
-lightgray -43.914px 12.36px / 143.929% 96.279% no-repeat;
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000F89;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    height: auto;
+    background-color: #000F89;
+}
+
+main {
+    position: relative;
+}
+
+footer {
+    background-color: #070917;
+    position: absolute;
+    font-family: 'Arial';
+    font-size: 10;
+    text-align: right;
+    padding-right: 5em;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    height: 2 em;
+    margin: auto;
+}
+
+
+nav {
+    /*establece color de fondo de la linea de los botones*/
+    background-color: #000F89;
+}
+
+input {
+    /*no muestra el botón de menu */
+    display: none;
+}
+
+label {
+    /*no muestra la etiqueta ☰ */
+    display: none;
+}
+
+ul {
+    /*muestra los botones con la disposición horizontal para notebook */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 0;
+}
+
+li {
+    /*determina la propiedad de cada botón*/
+    display: block;
+    background: #000F89;
+    margin: 2em;
+    padding: 1em;
+    list-style: none;
+    /*    border-bottom: 1px solid #000F89;*/
+    width: 11em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {
+    /*determina la propiedad de cada botón cuando se posiciona encima*/
+    /*    filter: brightness(150%);*/
+    background-color: #FD7E14;
+}
+
+.TituloPrincipal {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 0 auto;
+
+}
+
+.imgpresentacion {
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(90, 91, 91);
+}
+
+.TituloPagina {
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.contenedorflex {
+    display: flex;
+    justify-content: space-around;
+    position: ;
+
+}
+
+.cajaintegrante {
+    background-color: rgb(229, 188, 41);
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(90, 91, 91);
+    text-align: center;
+
+}
+
+.fotointegrante {
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.NombreIntegrante {
+
+    font-family: 'Arial';
+    font-size: larger;
+    color: #ffffff;
+    text-align: center;
+}
+
+.textoflex h1 {
+    padding-left: 1em;
+    font-family: 'Arial';
+    color: #ffffff;
+}
+
+.textoflex h4 {
+    padding-left: 1em;
+    font-family: 'Arial';
+    color: #ffffff;
+}
+
+.textoflex h5 {
+    padding-left: 3em;
+    font-family: 'Arial';
+    color: #ffffff;
+}
+
+@media all and (max-width: 700px) {
+    /*cuando el dispositivo es como máximo de 700px*/
+
+    input:checked~ul {
+        /*muestra todas el contenido de todas las etiquetas ul */
+        display: block;
+    }
+
+    input:checked~label {
+        /*muestra todo el contenido de todas las etiquetas label */
+        background: #000F89;
+    }
+
+    label:hover {
+        /*cambia el color de ☰ */
+        background: #FD7E14;
+    }
+
+    li {
+        /*elimina el margen  de cada botón */
+        margin: 0px;
+        text-align: left;
+    }
+
+    label {
+        /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color: #000F89;
+
+    }
+
+    ul {
+        /*deja de mostrar el bloque contenedor de los botones horizontales */
+        display: none;
+        background-color: white;
+
+    }
+
+    .contenedorflex {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Arial'
+}
+
+ul li a:hover {
+    color: #Ffffff;
+}
