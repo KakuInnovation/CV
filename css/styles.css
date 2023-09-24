@@ -135,22 +135,23 @@ li:hover {
     text-align: center;
 }
 
-.textoflex h1 {
-    padding-left: 1em;
+.textoflex {
+    align-content: center;
     font-family: 'Arial';
     color: #ffffff;
+}
+
+.textoflex h1 {
+    padding-top
+    : 1em;
 }
 
 .textoflex h4 {
-    padding-left: 1em;
-    font-family: 'Arial';
-    color: #ffffff;
+    padding-top: 1em;
 }
 
 .textoflex h5 {
-    padding-left: 3em;
-    font-family: 'Arial';
-    color: #ffffff;
+    padding-top: 1rem;
 }
 
 @media all and (max-width: 700px) {
