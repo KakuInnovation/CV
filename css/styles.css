@@ -87,6 +87,14 @@ ul li a:hover {
     background-color: #FD7E14;
 }
 
+.experience {
+    background-color: #FD7E14;
+}
+
+.competencies {
+    background-color: #FD7E14;
+}
+
 /* +++++++++++++++ FIN HEADER +++++++++++++++*/
 
 /* +++++++++++++++ MAIN +++++++++++++++ */
@@ -122,6 +130,11 @@ main {
 
 .textoflex h5 {
     padding-top: 1rem;
+}
+
+h5.separacionIcono.ExperienceH5 {
+    padding-top: 0;
+    font-weight: normal;
 }
 
 .imgHome {
@@ -317,6 +330,114 @@ main {
     background-color: #ffffff;
 }
 
+.contenedorNASA {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgNASA {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorCENCO {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgCENCO {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorIBM {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgIBM {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorBS {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgBS {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorATOS {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgATOS {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorCAP {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgCAP {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorITR {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgITR {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorINDRA {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgINDRA {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorACCENTURE {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgACCENTURE {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
 
 /* +++++++++++++++ FOOTER +++++++++++++++ */
@@ -324,7 +445,7 @@ footer {
     background-color: #ffffff;
     position: absolute;
     font-size: 12;
-    text-align: right;
+    text-align: center;
     /*padding-right: 5em;*/
     color: #000000;
     bottom: 0;
@@ -338,7 +459,7 @@ footer {
     justify-content: center;
 }
 
-.pie p {
+.pie.p {
     margin: auto;
 }
 
@@ -444,5 +565,9 @@ footer {
         padding: 0;
     }
 
+
+    main div div H5.ExperienceH5 {
+        text-align: left;
+    }
 
 }
