@@ -1,3 +1,4 @@
+/* +++++++++++++++ CONFIG PAGINA COMPLETA +++++++++++++++ */
 html {
     height: 100%;
 }
@@ -5,44 +6,28 @@ html {
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #000F89;
+    background-color: #252740;
     position: relative;
     min-height: 100vh;
 }
 
+/* +++++++++++++++ FIN CONFIG PAGINA COMPLETA +++++++++++++++ */
+
+/* +++++++++++++++ HEADER +++++++++++++++ */
 header {
     width: 100%;
     margin: 0px;
     position: relative;
     height: auto;
-    background-color: #000F89;
 }
-
-main {
-    position: relative;
-}
-
-footer {
-    background-color: #070917;
-    position: absolute;
-    font-family: 'Arial';
-    font-size: 10;
-    text-align: right;
-    padding-right: 5em;
-    color: #ffffff;
-    bottom: 0;
-    width: 100%;
-    height: 2 em;
-    margin: auto;
-}
-
 
 nav {
     /*establece color de fondo de la linea de los botones*/
-    background-color: #000F89;
+    background-color: #252740;
 }
 
 input {
@@ -58,19 +43,17 @@ label {
 ul {
     /*muestra los botones con la disposición horizontal para notebook */
     display: flex;
-    justify-content: space-around;
-    margin-top: 0;
+    justify-content: flex-end;
+    margin-top: 1em;
     padding: 0;
 }
 
 li {
     /*determina la propiedad de cada botón*/
     display: block;
-    background: #000F89;
-    margin: 2em;
+    background: #252740;
     padding: 1em;
     list-style: none;
-    /*    border-bottom: 1px solid #000F89;*/
     width: 11em;
     text-align: center;
     border-radius: 1em;
@@ -79,29 +62,23 @@ li {
 /*Estilo cuando el mouse pasa encima de cada link del menu*/
 li:hover {
     /*determina la propiedad de cada botón cuando se posiciona encima*/
-    /*    filter: brightness(150%);*/
     background-color: #FD7E14;
 }
 
-.TituloPrincipal {
-    text-align: center;
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.contenedor {
-    margin: 0 auto;
-
+ul li a:hover {
+    color: #ffffff;
 }
 
-.imgpresentacion {
-    width: 25%;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(90, 91, 91);
-}
+/* +++++++++++++++ FIN HEADER +++++++++++++++*/
 
-.TituloPagina {
-    text-align: center;
-    background-color: black;
-    color: rgb(255, 255, 255);
+/* +++++++++++++++ MAIN +++++++++++++++ */
+main {
+    position: relative;
 }
 
 .contenedorflex {
@@ -109,41 +86,14 @@ li:hover {
     justify-content: space-around;
 }
 
-.cajaintegrante {
-    background-color: rgb(229, 188, 41);
-    width: 300px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(90, 91, 91);
-    text-align: center;
-
-}
-
-.fotointegrante {
-    width: 100%;
-    box-sizing: border-box;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.NombreIntegrante {
-
-    font-family: 'Arial';
-    font-size: larger;
-    color: #ffffff;
-    text-align: center;
-}
-
 .textoflex {
     align-content: center;
-    font-family: 'Arial';
+    margin: auto;
     color: #ffffff;
 }
 
 .textoflex h1 {
-    padding-top
-    : 1em;
+    padding-top: 1em;
 }
 
 .textoflex h4 {
@@ -154,17 +104,45 @@ li:hover {
     padding-top: 1rem;
 }
 
+.imgHome {
+    width: 20rem;
+    margin: auto;
+}
+
+.fotoflex {
+    margin: auto;
+    padding-top: 5rem;
+}
+
+/* +++++++++++++++ FIN MAIN +++++++++++++++ */
+
+/* +++++++++++++++ FOOTER +++++++++++++++ */
+footer {
+    background-color: #ffffff;
+    position: absolute;
+    font-size: 12;
+    text-align: right;
+    padding-right: 5em;
+    color: #000000;
+    bottom: 0;
+    width: 100%;
+    height: 10 em;
+    margin: auto;
+}
+
+/* +++++++++++++++ FIN FOOTER +++++++++++++++ */
+
 @media all and (max-width: 700px) {
     /*cuando el dispositivo es como máximo de 700px*/
 
     input:checked~ul {
-        /*muestra todas el contenido de todas las etiquetas ul */
+        /*muestra el contenido de todas las etiquetas ul */
         display: block;
     }
 
     input:checked~label {
         /*muestra todo el contenido de todas las etiquetas label */
-        background: #000F89;
+        background: #252740;
     }
 
     label:hover {
@@ -174,8 +152,13 @@ li:hover {
 
     li {
         /*elimina el margen  de cada botón */
-        margin: 0px;
-        text-align: left;
+        margin: auto;
+        justify-content: center;
+    }
+
+    li:hover {
+        /*determina la propiedad de cada botón cuando se posiciona encima*/
+        background-color: #FD7E14;
     }
 
     label {
@@ -190,34 +173,57 @@ li:hover {
         font-weight: bold;
         text-align: center;
         user-select: none;
-        background-color: #000F89;
-
+        background-color: #252740;
+        color: #ffffff;
+        margin-left: auto;
+        margin-top: 1rem;
+        margin-right: 1rem;
     }
 
     ul {
         /*deja de mostrar el bloque contenedor de los botones horizontales */
         display: none;
-        background-color: white;
+        background-color: #252740;
+    }
 
+    li a {
+        position: relative;
     }
 
     .contenedorflex {
         flex-direction: column;
         justify-content: center;
     }
-}
 
-ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Arial'
-}
+    .imgHome {
+        width: 15rem;
+    }
 
-ul li a:hover {
-    color: #Ffffff;
-}
+    main div div h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
 
-.menu_bar {
-    background-color: #000F89;
+    main div div h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
 
+    main div div h5 {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .imgHome {
+        position: relative;
+        padding-top: 2rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fotoflex {
+        margin: auto;
+        padding: 0;
+    }
 }
