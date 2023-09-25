@@ -28,10 +28,6 @@ header {
 nav {
     /*establece color de fondo de la linea de los botones*/
     background-color: #252740;
-    /*    display: flex;
-    position: fixed;
-    width: 100%;
-    padding-top: 5.75vh;*/
 }
 
 input {
@@ -125,6 +121,19 @@ main {
     padding-top: 5rem;
 }
 
+.hireMe {
+    background-color: #FD7E14;
+
+}
+
+.mainMenuUL {
+    display: flex;
+    margin: auto;
+    padding-top: 4rem;
+    align-content: center;
+    justify-content: center;
+}
+
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
 
 /* +++++++++++++++ FOOTER +++++++++++++++ */
@@ -201,7 +210,7 @@ footer {
         margin-right: 1rem;
     }
 
-    ul {
+    .menuUL {
         /*deja de mostrar el bloque contenedor de los botones horizontales */
         display: none;
         background-color: #121329;
