@@ -220,6 +220,10 @@ h5.separacionIcono.ExperienceH5 {
     padding-left: 1rem;
 }
 
+h3.separacionIcono.PDh3{
+    padding-top: 0;
+}
+
 .mainMenuUL {
     display: flex;
     margin: auto;
@@ -230,6 +234,7 @@ h5.separacionIcono.ExperienceH5 {
 
 .PDNombre {
     margin-bottom: 1rem;
+    color: #FD7E14;
 }
 
 .PDfotoflex {
@@ -436,6 +441,29 @@ h5.separacionIcono.ExperienceH5 {
 .imgACCENTURE {
     width: 4rem;
     background-color: #ffffff;
+}
+
+h1.indexH1{
+    padding-top: 0rem;
+    color: #FD7E14;
+}
+
+h1.educationH1{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    color: #FD7E14;
+}
+
+h1.experienceH1{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    color: #FD7E14;
+}
+
+h1.competenciesH1{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    color: #FD7E14;
 }
 
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
