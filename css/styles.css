@@ -57,6 +57,7 @@ li {
     width: 11em;
     text-align: center;
     border-radius: 1em;
+    font-weight: bold;
 }
 
 /*Estilo cuando el mouse pasa encima de cada link del menu*/
@@ -123,7 +124,7 @@ main {
 
 .hireMe {
     background-color: #FD7E14;
-
+    font-weight: bold;
 }
 
 .mainMenuUL {
