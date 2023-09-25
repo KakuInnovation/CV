@@ -79,6 +79,10 @@ ul li a:hover {
     background-color: #FD7E14;
 }
 
+.dp {
+    background-color: #FD7E14;
+}
+
 /* +++++++++++++++ FIN HEADER +++++++++++++++*/
 
 /* +++++++++++++++ MAIN +++++++++++++++ */
@@ -104,6 +108,10 @@ main {
     padding-top: 1em;
 }
 
+.textoflex h3 {
+    padding-top: 1em;
+}
+
 .textoflex h4 {
     padding-top: 1em;
 }
@@ -117,6 +125,70 @@ main {
     margin: auto;
 }
 
+.contenedorPhone {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgPhone {
+    width: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.contenedorEmail {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgEmail {
+    width: 3rem;
+    background-color: #ffffff;
+}
+
+.contenedorLinkedin {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgLinkedin {
+    width: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.contenedorGithub {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgGithub {
+    width: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.contenedorDiscor {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgDiscor {
+    width: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
 .fotoflex {
     margin: auto;
     padding-top: 5rem;
@@ -127,12 +199,30 @@ main {
     font-weight: bold;
 }
 
+.separacionIcono {
+    padding-left: 1rem;
+}
+
 .mainMenuUL {
     display: flex;
     margin: auto;
     padding-top: 4rem;
     align-content: center;
     justify-content: center;
+}
+
+.PDNombre {
+    margin-bottom: 1rem;
+}
+
+.PDfotoflex {
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.imgPD {
+    width: 20rem;
+    margin: auto;
 }
 
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
@@ -245,6 +335,10 @@ footer {
         text-align: center;
     }
 
+    .PDh3 {
+        font-size: 1rem;
+    }
+
     .imgHome {
         position: relative;
         padding-top: 2rem;
@@ -257,4 +351,6 @@ footer {
         margin: auto;
         padding: 0;
     }
+
+
 }
