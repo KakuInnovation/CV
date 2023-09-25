@@ -83,6 +83,10 @@ ul li a:hover {
     background-color: #FD7E14;
 }
 
+.studies {
+    background-color: #FD7E14;
+}
+
 /* +++++++++++++++ FIN HEADER +++++++++++++++*/
 
 /* +++++++++++++++ MAIN +++++++++++++++ */
@@ -223,6 +227,94 @@ main {
 .imgPD {
     width: 20rem;
     margin: auto;
+}
+
+.contenedorUADE {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgUADE {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorUM {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgUM {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorDH {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgDH {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.space {
+    color: #252740;
+}
+
+.contenedorIAAP {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgIAAP {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorAWS {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgAWS {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorAXIGMA {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgAXIGMA {
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.contenedorSAP {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.imgSAP {
+    width: 4rem;
+    background-color: #ffffff;
 }
 
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
