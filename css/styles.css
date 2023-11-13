@@ -220,7 +220,7 @@ h5.separacionIcono.ExperienceH5 {
     padding-left: 1rem;
 }
 
-h3.separacionIcono.PDh3{
+h3.separacionIcono.PDh3 {
     padding-top: 0;
 }
 
@@ -443,30 +443,97 @@ h3.separacionIcono.PDh3{
     background-color: #ffffff;
 }
 
-h1.indexH1{
+h1.indexH1 {
     padding-top: 0rem;
     color: #FD7E14;
 }
 
-h1.educationH1{
-    padding-top: 0rem;
-    padding-bottom: 1rem;
-    color: #FD7E14;
-}
-
-h1.experienceH1{
+h1.educationH1 {
     padding-top: 0rem;
     padding-bottom: 1rem;
     color: #FD7E14;
 }
 
-h1.competenciesH1{
+h1.experienceH1 {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    color: #FD7E14;
+}
+
+h1.competenciesH1 {
     padding-top: 0rem;
     padding-bottom: 1rem;
     color: #FD7E14;
 }
 
 /* +++++++++++++++ FIN MAIN +++++++++++++++ */
+
+/* +++++++++++++++ INICIO FORM CONTACTO +++++++++++++++ */
+.formulario {
+    /*  Formato general */
+    width: 70%;
+    max-width: 100%;
+    margin-left: 10%;
+    padding: 20px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.formulario_titulo {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    color: #FD7E14;
+}
+
+.formulario_input,
+.formulario_label,
+.formulario_submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.formulario_input {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.formulario_label {
+    border: transparent;
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+.formulario_submit {
+    background: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+/* Aplico la animación cuando tenga el foco el elemento.
+Utilizo el selector + para confirmar que el elemento que sigue
+"Label" lo selecciona para que aplique la animación.*/
+.formulario_input:focus+.formulario_label {
+    margin-top: -135px;
+    color: #ffffff;
+}
+
+/* Clase que se utiliza en el JS para dejar fijo el txt del Label*/
+.fijar {
+    margin-top: -135px;
+}
+
+/* +++++++++++++++ FIN FORM CONTACTO +++++++++++++++ */
 
 /* +++++++++++++++ FOOTER +++++++++++++++ */
 footer {
