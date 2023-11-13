@@ -14,7 +14,7 @@ for (var i = 0; i < inputs.length; i++) {
             this.nextElementSibling.classList.add('fijar');
         }
         else {
-            // Elimina la Clase "fijar" al elemento Label.
+            // Elimina la Clase "fijar" al elemento Label en caso que no tenga txt ingresado por el Usuario.
             this.nextElementSibling.classList.remove('fijar');
         }
     });
