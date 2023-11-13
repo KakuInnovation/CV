@@ -531,6 +531,7 @@ Utilizo el selector + para confirmar que el elemento que sigue
 /* Clase que se utiliza en el JS para dejar fijo el txt del Label*/
 .fijar {
     margin-top: -135px;
+    color: #ffffff;
 }
 
 /* +++++++++++++++ FIN FORM CONTACTO +++++++++++++++ */
@@ -733,6 +734,7 @@ Utilizo el selector + para confirmar que el elemento que sigue
     /* Clase que se utiliza en el JS para dejar fijo el txt del Label*/
     .fijar {
         margin-top: -135px;
+        color: #ffffff;
     }
 
     /* +++++++++++++++ FIN FORM CONTACTO +++++++++++++++ */
